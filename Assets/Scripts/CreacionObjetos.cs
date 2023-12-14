@@ -43,6 +43,22 @@ public class CreacionObjetos : MonoBehaviour
             }
         }
 
+        //No funcha = Lo tengo mal =)
+
+        //Ray RayoCamaraDestroy = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //RaycastHit Fermin;
+
+        //if (Input.GetMouseButtonDown(0)) 
+        {
+            //if (Physics.Raycast(RayoCamaraDestroy, out Fermin, Mathf.Infinity)) 
+            {
+                //if (Fermin.collider.gameObject.CompareTag("Arbol")) 
+                {
+                    //Destroy(Arbol1)
+                }
+            }
+        }
+
         ArbolText.text = "Hay " + GameObject.FindGameObjectsWithTag("Arbol").Length + " arboles";
         Arbol2Text.text = "Hay " + GameObject.FindGameObjectsWithTag("Arbol2").Length + " arboles muertos";
         CasasText.text = "Hay " + GameObject.FindGameObjectsWithTag("Casa").Length + " casas";
